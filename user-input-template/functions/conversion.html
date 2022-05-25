@@ -25,20 +25,24 @@
 
         // step 1
         // Create const for conversion
+            const factor  =0.621371;
 
 
         // step 2
         // Get user input and save to variable
+        const kilometers = prompt("Enter value in kilometers: ")
 
 
         // step 3
         // Perform calculation and save result
 
+        
+          const miles = kilometers * factor
+
 
         // step 4
         // Display result in DOM, alert or console
-        console.log("The distance of " + /*<<input var>>*/ + "km after being converted is " + /*<<result var>>*/ + " in miles");
-
+        console.log(`${kilometers} kilometers is equal to ${miles} miles.`);
         </script>
         <!-- End of Script -->
 

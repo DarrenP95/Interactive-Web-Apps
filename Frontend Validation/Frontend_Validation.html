@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+</head>
+<link rel="stylesheet" href="css\Frontend_Validation.css">
+
+
+
+
+<body>
+
+        <h1>Form</h1>
+        
+        <form action="#" method="post" onsubmit= "()">
+        
+
+        <div class="tooltip">
+        <span class="tooltiptext">Required and must contain no html characters</span>
+
+        <div class="newtask">
+
+          <label for="newtask">New Task: </label>
+          <input type="newtask" name="newtask" id="newtask" 
+           style="width: 250px;" title="" 
+          minlength="" maxlength="" required>
+          
+          <p id="errortext">Please make sure your task contains no HTML characters html</p>
+
+         </div>
+         <span id="errortext"></br>
+        </div>
+         
+        
+       
+<br>
+        
+            
+
+    
+        <div class="tooltip">
+            <span class="tooltiptext">Optional</span>
+    <div class="taskd">
+      <label for="taskd">Task description:</label>
+      <textarea name="taskd" id="taskd" cols="10" rows="2"></textarea>
+       </textarea>
+    </div>
+    </div>
+<br>
+    <div class="tooltip">
+        <span class="tooltiptext">Required. Must select a date</span>
+
+      
+    <div class="date">
+    <label for="date">Set Task Due date:</label>
+    <input type="date" id="date" name="date"
+     title="" required>
+    </div>
+    </div>
+
+    <br>
+    
+
+    <div class="tooltip">
+        <span class="tooltiptext">Required. Must select a date</span>
+    <div class="time">
+        <label for="appt">Set Task Due time:</label>
+        <input type="time" id="appt" name="appt"
+        title="" required>
+    </div>
+    </div>
+      
+    <br>
+
+     
+     
+
+     
+    
+          
+         
+    <button type='submit'>Submit</button>
+
+    
+
+    
+        </form>
+        
+
+ <script src="script\Frontend_Validation.js"></script>
+    
+</body>
+</html>

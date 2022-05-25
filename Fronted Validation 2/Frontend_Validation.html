@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Validation</title>
+    <link rel="stylesheet" href="css\Frontend_Validation.css">
+</head>
+
+<body>
+
+    <h1> Form </h1>
+
+<form action="#" onsubmit="myValidation()">
+ 
+    
+
+     <div class="tooltip">
+
+        <div class="newtask">
+
+             <label for="newTask">New Task: </label>
+            <input type="text" name="newTask" id="newTask" Required>
+            <p id="errorText"> Please make sure your task contains no html characters.</p>
+           </div>
+            </div>
+
+    <br>
+
+    <div class="tooltip">
+        <span class="tooltiptext">Optional</span>
+ <div class="taskd">
+  <label for="taskd">Task description:</label>
+  <textarea name="taskd" id="taskd" cols="10" rows="2"></textarea>
+   </textarea>
+</div>
+</div>
+
+<br>
+
+<div class="tooltip">
+    <span class="tooltiptext">Required. Must select a date</span>
+
+  
+<div class="date">
+<label for="date">Set Task Due date:</label>
+<input type="date" id="date" name="Date"
+ title="" Required>
+</div>
+</div>
+
+
+    <br>
+
+
+    <div class="tooltip">
+        <span class="tooltiptext">Required. Must select a time</span>
+    <div class="time">
+        <label for="appt">Set Task Due time:</label>
+        <input type="time" id="appt" name="appt"
+        title="" required>
+    </div>
+    </div>
+
+    <br>
+
+    <input type="submit" value="submit"></button>
+
+    <ul id="myNewTaskList">
+        
+
+       
+        
+
+
+    </ul>
+
+
+</form>
+
+<script src="script\Frontend_Validation.js"></script>
+  
+</body>
+</html>

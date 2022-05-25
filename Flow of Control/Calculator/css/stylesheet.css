@@ -1,0 +1,54 @@
+body{
+    font-weight: 500;
+}
+
+#inputext{
+    height: 100px;
+    width: 425px;
+    background-color: darkgrey;
+    margin: auto;
+    text-align: end;
+    font-size: 30px;
+    color: black;
+}
+
+.calc{
+    width: 430px;
+    margin: auto;
+}
+
+.numbers{
+    display: inline-block;
+    float: left;
+    width: 327px;
+}
+
+.numbers button{
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+}
+
+.operators{
+    display: inline-block;
+    float: right;
+    width: 100px;
+}
+
+.operators button{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 3px;
+}
+
+.equals{
+    display: block;
+    width: 220px;
+    transform: translateX(-110px);
+}
+
+#equals{
+   width: 210px;
+    transform: translate(-110px, -106px);
+}
